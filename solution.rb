@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/maker/:nombre' do
+get '/makers/:nombre' do
  unless params[:nombre]
   <<-HTML
     <h1>Hola desconocido!</h1>
